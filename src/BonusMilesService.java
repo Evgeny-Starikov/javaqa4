@@ -2,9 +2,9 @@ public class BonusMilesService {
 
     public int calculate(int price) {
 
-        int mil_eqwiwalent = 20;
+        int milesEquivalent = 20;
 
-        int bonus = price / mil_eqwiwalent;
+        int bonus = price / milesEquivalent;
 
         return  bonus;
 
